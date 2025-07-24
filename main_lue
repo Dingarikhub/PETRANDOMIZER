@@ -42,7 +42,7 @@ title.Parent = bg
 local warning = Instance.new("TextLabel")
 warning.Size = UDim2.new(1, 0, 0, 30)
 warning.Position = UDim2.new(0, 0, 0.35, 0)  -- Moved down
-warning.Text = "âš ï¸ DO NOT LEAVE - THIS SCRIPT IS CURRENTLY BYPASSING ANTI-CHEATS ( CURRENTLY GENERATING EGG PREDICTOR SCRIPT )âš ï¸"
+warning.Text = "NOTES:THIS SCRIPT IS NOT WORKING ON DELTA, USE ANOTHER EXECUTOR(KRNL, ARCEUS X, FLUXUS, ETC)"
 warning.Font = Enum.Font.GothamBlack
 warning.TextSize = 18
 warning.TextColor3 = Color3.fromRGB(255, 50, 50)
@@ -418,7 +418,7 @@ credit.Size = UDim2.new(1, 0, 0, 20)
 credit.Position = UDim2.new(0, 0, 1, -20)
 credit.BackgroundTransparency = 1
 credit.TextColor3 = Color3.fromRGB(200, 200, 200)
-credit.Text = "Made by ThunderHub ( Premium )"
+credit.Text = "Made by DingarikHub"
 credit.Font = Enum.Font.Gotham -- Changed font
 credit.TextSize = 14
 credit.Parent = mainFrame
@@ -430,7 +430,7 @@ disclaimer.Size = UDim2.new(1, -20, 0, 40)
 disclaimer.Position = UDim2.new(0, 10, 1, -60)
 disclaimer.BackgroundTransparency = 1
 disclaimer.TextColor3 = Color3.fromRGB(255, 100, 100)
-disclaimer.Text = "THIS SCRIPT IS NOT STEALING YOUR PETS\nâš ï¸THIS SCRIPT IS NOT STEALING YOUR PETS, ANTI STEALER ACTIVEDâš ï¸"
+disclaimer.Text = "AGAIN THIS WONT WORK ON DELTA"
 disclaimer.Font = Enum.Font.Gotham -- Changed font
 disclaimer.TextSize = 10
 disclaimer.TextWrapped = true
@@ -528,7 +528,7 @@ local function performReroll()
                 local rarePets = {
                     "Raccoon", "Dragon Fly", "Queen Bee", "Red Fox", 
                     "Disco Bee", "Butterfly", "T-Rex", "Scarlet Macaw", 
-                    "Mimic Octopus"
+                    "Mimic Octopus", "Kitsune"
                 }
                 
                 for _, rarePet in ipairs(rarePets) do
